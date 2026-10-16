@@ -1,0 +1,24 @@
+# Environment secrets and credentials
+.env
+*.env
+*service-account*.json
+credentials.json
+client_secret*.json
+
+# Logs and runtime artifacts
+harness.log
+*.log
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# Streamlit session & OS artifacts
+.streamlit/
+.DS_Store
+Thumbs.db
